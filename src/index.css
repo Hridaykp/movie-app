@@ -99,6 +99,7 @@ body {
 .main .tabs {
   display: flex;
   font-size: 20px;
+  font-weight: 500;
 }
 .main .tabs .tab {
   background: #fff;
@@ -111,6 +112,7 @@ body {
   background: #2185d0 !important;
   color: white;
 }
+
 .main .tabs .tab:hover {
   cursor: pointer;
   background: #e1e1e1;
@@ -167,19 +169,29 @@ body {
   text-shadow: none;
   border-radius: 3px;
   border: none;
-  font-weight: 600;
+  font-weight: 570;
 }
+
 .favourite-btn {
   background-color: #2185d0;
   color: #fff;
+}
+.favourite-btn:hover{
+  background-color: #0c5085;
+
 }
 .unfavourite-btn {
   background-color: #db2828;
   color: #fff;
   text-shadow: none;
 }
+.unfavourite-btn:hover{
+  background-color: #911111;
+  
+}
 .no-movies {
   padding: 20px 0;
   font-size: 20px;
   color: #6d6d6d;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
