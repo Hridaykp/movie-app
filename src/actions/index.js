@@ -4,3 +4,7 @@
 {
     type: 'DECREASE_COUNT'
 }
+{
+    type: 'ADD_MOVIES'
+    
+}
