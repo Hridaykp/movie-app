@@ -1,10 +1,15 @@
-{
-    type: 'INCREASE_COUNT'
-}
-{
-    type: 'DECREASE_COUNT'
-}
-{
-    type: 'ADD_MOVIES'
+
+
     
+// }
+
+// action types var
+export const ADD_MOVIES = 'ADD_MOVIES';
+
+//action creators 
+export  const  addMovies =(movies)=>{
+    return({
+        type: ADD_MOVIES,
+        movies
+    });
 }
