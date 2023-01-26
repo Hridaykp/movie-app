@@ -1,9 +1,9 @@
 import React from "react";
 import {data} from  '../data';
+import { connect } from "react-redux";
 import Navbar from './Navbar';
 import MovieCard from "./MovieCard";
 import { addMovies, setShowFavourites } from '../actions';
-import { connect} from "..";
 class App extends React.Component {
     componentDidMount(){
         this.props.dispatch(addMovies(data))
